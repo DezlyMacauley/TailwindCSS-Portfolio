@@ -13,10 +13,10 @@
 
   <link rel="stylesheet" href="css/style.css">
 
-  <script src="js/script.js" defer></script>
+  <script src="js/main.js" defer></script>
   
   <!-- Shortly icon that is next to the name in the browser tab -->
-  <link rel="shortcut icon" type="image/png" href="images/favicon-32x32.png">
+  <link rel="shortcut icon" type="icon" href="favicon.ico">
 
   <title>Shortly</title>
 </head>
@@ -24,19 +24,19 @@
 <body>
   
   <!-- Nav Container -->
-  <nav class="bg-blue-400 relative container mx-auto p-6">
+  <nav class="relative container mx-auto p-6">
 
     <!-- Flex Container For All  Items -->
-    <div class="bg-yellow-300 flex items-center justify-between">
+    <div class="flex items-center justify-between">
 
       <!-- Flex Container For Logo/Menu -->
-      <div class="bg-pink-400 flex items-center space-x-20">
+      <div class="flex items-center space-x-20">
 
         <!-- Logo -->
-        <img src="images/logo.svg " alt="">
+        <img src="img/logo.svg" alt="">
 
         <!-- Menu on the left of logo -->
-        <div class="bg-green-400 hidden space-x-8 font-bold lg:flex">
+        <div class="hidden space-x-8 font-bold lg:flex">
 
           <a href="#" class="text-grayishViolet hover:text-veryDarkViolet">Features</a>
 
@@ -50,7 +50,7 @@
       </div>
 
       <!-- Right Buttons Menu / Container for Login & Sign Up -->
-      <div class="bg-purple-500 hidden items-center space-x-6 font-bold text-grayishViolet lg:flex">
+      <div class="hidden items-center space-x-6 font-bold text-grayishViolet lg:flex">
 
         <!-- Login -->
         <div class="hover:text-veryDarkViolet">Login</div>
@@ -96,10 +96,10 @@
   <section id="hero">
 
     <!-- Hero Container -->
-    <div class="bg-orange-300 container flex flex-col-reverse mx-auto p-6 lg:flex-row">
+    <div class="container flex flex-col-reverse mx-auto p-6 lg:flex-row">
 
       <!-- Content Container & Get started button  -->
-      <div class=" bg-green-300 flex flex-col space-y-10 mb-44 lg:mt-16 lg:w-1/2 xl:mb-52">
+      <div class="flex flex-col space-y-10 mb-44 lg:mt-16 lg:w-1/2 xl:mb-52">
 
         <h1 class="text-5xl font-bold text-center lg:text-6xl lg:max-w-md lg:text-left">More than just shorter links</h1>
 
@@ -115,9 +115,9 @@
       </div>
 
       <!-- Image -->
-      <div class="bg-yellow-300 mb-24 mx-auto md:w-180 lg:mb-0 lg:w-1/2">
+      <div class="mb-24 mx-auto md:w-180 lg:mb-0 lg:w-1/2">
 
-        <img src="images/illustration-working.svg" alt="">
+        <img src="img/illustration-working.svg" alt="">
 
       </div>
 
@@ -131,7 +131,7 @@
   <section id="shorten" class="relative bg-gray-100">
 
     <!-- Shorten Container -->
-    <div class="bg-purple-600 max-w-4xl mx-auto p-6 space-y-6">
+    <div class="max-w-4xl mx-auto p-6 space-y-6">
 
       <!-- Form -->
       <form id="link-form" class="relative flex flex-col w-full p-10 -mt-20 space-y-4 bg-darkViolet rounded-lg md:flex-row md:space-y-0 md:space-x-3">
@@ -160,10 +160,10 @@
         </p>
 
         <!-- Shortened link container with copy button -->
-        <div class="bg-pink-300 flex flex-col items-center justify-end flex-1 space-x-4 space-y-2 md:flex-row md:space-y-0">
+        <div class="flex flex-col items-center justify-end flex-1 space-x-4 space-y-2 md:flex-row md:space-y-0">
 
           <!-- Shortened Link -->
-          <div class="bg-yellow-400 font-bold text-cyan">
+          <div class="font-bold text-cyan">
             https://rel.ink/k4IKyk
           </div>
 
@@ -189,10 +189,10 @@
         </p>
 
         <!-- Shortened link container with copy button -->
-        <div class="bg-pink-300 flex flex-col items-center justify-end flex-1 space-x-4 space-y-2 md:flex-row md:space-y-0">
+        <div class="flex flex-col items-center justify-end flex-1 space-x-4 space-y-2 md:flex-row md:space-y-0">
 
           <!-- Shortened Link -->
-          <div class="bg-yellow-400 font-bold text-cyan">
+          <div class="font-bold text-cyan">
             https://rel.ink/OrIKbk
           </div>
 
@@ -219,10 +219,10 @@
         </p>
 
         <!-- Shortened link container with copy button -->
-        <div class="bg-pink-300 flex flex-col items-center justify-end flex-1 space-x-4 space-y-2 md:flex-row md:space-y-0">
+        <div class="flex flex-col items-center justify-end flex-1 space-x-4 space-y-2 md:flex-row md:space-y-0">
 
           <!-- Shortened Link -->
-          <div class="bg-yellow-400 font-bold text-cyan">
+          <div class="font-bold text-cyan">
             https://rel.ink/VrIKbc
           </div>
 
@@ -235,17 +235,13 @@
 
         </div>
 
-
-
       </div>
 
-
   </section>
-
-  <!-- Advanced Stats Section  -->
+  <!-- Advanced Stats Section -->
   <section id="stats" class="py-24 bg-gray-100">
     
-    <div class="bg-blue-400 container mx-auto px-3">
+    <div class="container mx-auto px-3">
 
       <h2 class="text-4xl mb-6 font-bold text-center">Advanced Statistics</h2>
 
@@ -253,13 +249,12 @@
 
     </div>
 
-
   </section>
 
   <!-- Feature Box Section -->
   <section id="features" class="pb-32 bg-gray-100">
 
-    <div class="bg-yellow-400 relative container flex flex-col items-start px-6 mx-auto md:flex-row md:space-x-7">
+    <div class="relative container flex flex-col items-start px-6 mx-auto md:flex-row md:space-x-7">
 
       <!-- Horizontal Line -->
       <div class="hidden absolute top-24 w-10/12 left-16 h-3 bg-cyan md:block"></div>
@@ -276,7 +271,7 @@
           <!-- Image Containere For Background & Center -->
           <div class="flex items-center justify-center w-20 h-20 p-4 rounded-full bg-veryDarkViolet">
 
-            <img src="images/icon-brand-recognition.svg" alt="">
+            <img src="img/icon-brand-recognition.svg" alt="">
 
           </div>
 
@@ -300,7 +295,7 @@
           <!-- Image Containere For Background & Center -->
           <div class="flex items-center justify-center w-20 h-20 p-4 rounded-full bg-veryDarkViolet">
 
-            <img src="images/icon-detailed-records.svg" alt="">
+            <img src="img/icon-detailed-records.svg" alt="">
 
           </div>
 
@@ -324,7 +319,7 @@
           <!-- Image Containere For Background & Center -->
           <div class="flex items-center justify-center w-20 h-20 p-4 rounded-full bg-veryDarkViolet">
 
-            <img src="images/icon-fully-customizable.svg" alt="">
+            <img src="img/icon-fully-customizable.svg" alt="">
 
           </div>
 
@@ -362,16 +357,16 @@
   <footer class="py-16 bg-veryDarkViolet">
 
     <!-- Overall Container -->
-    <div class="bg-yellow-400 container flex flex-col items center justify-between mx-auto space-y-16 md:flex-row md:space-y-0 md:items-start">
+    <div class="container flex flex-col items-center justify-between mx-auto space-y-16 md:flex-row md:space-y-0 md:items-start">
 
       <!-- Logo -->
-      <img src="images/logo.svg" alt="">
+      <img src="img/logo.svg" alt="">
 
       <!-- Menus Container (For the 3 groups of Menus) -->
       <div class="flex flex-col space-y-16 md:space-x-20 md:flex-row md:space-y-0">
 
         <!-- Menu 1 Container -->
-        <div class="bg-green-400 flex flex-col items-center w-full md:items-start">
+        <div class="flex flex-col items-center w-full md:items-start">
 
           <!-- Menu Heading -->
           <div class="mb-5 font-bold text-white capitalize">
@@ -393,7 +388,7 @@
         </div>
 
         <!-- Menu 2 -->
-        <div class="bg-green-400 flex flex-col items-center w-full md:items-start">
+        <div class="flex flex-col items-center w-full md:items-start">
 
           <!-- Menu Heading -->
           <div class="mb-5 font-bold text-white capitalize">
@@ -415,7 +410,7 @@
         </div>
 
         <!-- Menu 3 -->
-        <div class="bg-green-400 flex flex-col items-center w-full md:items-start">
+        <div class="flex flex-col items-center w-full md:items-start">
 
           <!-- Menu Heading -->
           <div class="mb-5 font-bold text-white capitalize">
@@ -449,25 +444,25 @@
 
         <!-- Facebook -->
         <a href="#">
-          <img src="images/icon-facebook.svg" alt="" class="ficon">
+          <img src="img/icon-facebook.svg" alt="" class="ficon">
 
         </a>
 
         <!-- Twitter -->
         <a href="#">
-          <img src="images/icon-twitter.svg" alt="" class="ficon">
+          <img src="img/icon-twitter.svg" alt="" class="ficon">
 
         </a>
 
         <!-- Pintrest -->
         <a href="#">
-          <img src="images/icon-pinterest.svg" alt="" class="ficon">
+          <img src="img/icon-pinterest.svg" alt="" class="ficon">
 
         </a>
 
         <!-- Instagram -->
         <a href="#">
-          <img src="images/icon-instagram.svg" alt="" class="ficon">
+          <img src="img/icon-instagram.svg" alt="" class="ficon">
 
         </a>
 
